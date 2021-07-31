@@ -56,6 +56,7 @@
 footer{
     padding-top: 30px;
     height: 360px;
+    width: 100%;
     background-color: #505050;
     .footer{
         overflow: hidden;
@@ -93,7 +94,7 @@ footer{
         
     }
     .end{
-        width: 100%;
-        margin: 39px  680px!important;
+        width: 140px;
+        margin: 80px auto;
     }
 }
