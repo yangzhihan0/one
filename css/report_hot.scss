@@ -1,0 +1,157 @@
+section{
+    border-top: 2px solid #ccc;
+    .md{  
+        overflow: hidden;
+        h1{
+            width: 166px;
+            margin: 47px auto 0;
+            font-size: 40px;
+            font-weight: 400;
+        }
+        ul{
+            overflow: hidden;
+            width: 332px;
+            margin: 0 auto;       
+            li{
+                overflow: hidden;
+                float: left;           
+                a{
+                    float: left;
+                    font-size: 15px;
+                    width: 166px;
+                    text-align: center;
+                    height: 30px;
+                }
+                &:nth-child(2){           
+                    a{
+                        color: #FD5238;
+                        border-bottom: 4px solid #FD5238;
+                    }           
+                }
+            }
+            
+        }
+    }
+
+    // pc
+    .pc{
+        background-color: #F7F7F7;
+        .big{
+            overflow: hidden;
+            padding-top: 20px;
+            // background-color: #fff;
+            .l{
+                float: left;
+                // background-color: blueviolet;
+                .l1{
+                    position: relative;
+                    width: 700px;
+                    height: 415px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .bg{
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        height: 120px;
+                        width: 100%;
+                        padding:0 20px;
+                        background: rgba(241, 233, 231, 0.9);
+                        
+                        h2{
+                            font-weight: 400;
+                            margin: 25px 0;
+                        }
+                        div{
+                            overflow: hidden;
+                            .l11{
+                                overflow: hidden;
+                                float: left;
+                                li{
+                                    float: left;
+                                    margin-right: 5px;
+                                    &:nth-child(1){
+                                        width: 20px;
+                                        height: 20px;
+                                        img{
+                                            width: 100%;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                            }
+                            .l22{
+                                overflow: hidden;
+                                float: right;
+                                li{
+                                    overflow: hidden;
+                                    float: right;
+                                    margin-left: 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .p{
+                    margin: 14px 0;
+                    height: 48px;
+                    line-height: 48px;
+                    text-align: center;
+                    width: 100%;
+                    font-size: 13px;
+                    border: 1px solid #ccc;
+                    background-color: #F7F7F7;
+                }
+                .end{
+                    margin: 52px 0;
+                    text-align: center;
+                    font-size: 15px;
+                    color: #FD5238;
+                }
+            }
+            .r{
+                overflow: hidden;
+                float: right;
+                width: 272px;
+                .hd{
+                    .hd_1,.hd_2{
+                        span:nth-child(1){
+                        display: inline-block;
+                        margin-right: 15px;
+                        width: 6px;
+                        height: 26px;
+                        background-color: #FD5238;
+                        }
+                        span:nth-child(2){
+                            display: inline-block;
+                            width: 200px;
+                            height: 10px;
+                            font-size: 16px;
+                            margin-bottom: -5px;
+                        }
+                    }                   
+                    .ti{
+                        margin: 20px 0;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    h2{
+                        margin: 14px 0;
+                    }
+                    .hd_2{
+                        margin: 66px 0 24px;
+                    }
+                    .us{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

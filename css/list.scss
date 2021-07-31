@@ -1,0 +1,35 @@
+section{
+    border-top: 2px solid #ccc;
+    .md{  
+        overflow: hidden;
+        h1{
+            width: 166px;
+            margin: 47px auto 0;
+            font-size: 40px;
+            font-weight: 400;
+        }
+        ul{
+            overflow: hidden;
+            width: 332px;
+            margin: 0 auto;       
+            li{
+                overflow: hidden;
+                float: left;           
+                a{
+                    float: left;
+                    font-size: 15px;
+                    width: 166px;
+                    text-align: center;
+                    height: 30px;
+                }
+                &:nth-child(1){           
+                    a{
+                        color: #FD5238;
+                        border-bottom: 4px solid #FD5238;
+                    }           
+                }
+            }
+            
+        }
+    }
+}

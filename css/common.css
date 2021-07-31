@@ -9,23 +9,26 @@
   line-height: 70px;
 }
 
+.header .pc {
+  float: left;
+  margin-right: 50px;
+}
+
+.header .pc img {
+  width: 135px;
+  height: 53px;
+}
+
 .header .hl {
   overflow: hidden;
   float: left;
+  margin-top: 7px;
 }
 
 .header .hl li {
   float: left;
   margin-right: 50px;
   font-size: 19px;
-}
-
-.header .hl li:nth-child(1) {
-  width: 135px;
-}
-
-.header .hl li:nth-child(1) img {
-  width: 100px;
 }
 
 .header .hr {
@@ -46,7 +49,7 @@
   height: 30px;
   line-height: 30px;
   text-align: center;
-  border: 1px solid #c81623;
+  border: 1px solid #FD5238;
 }
 
 footer {
